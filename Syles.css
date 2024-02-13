@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a basic font */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+
+  instagramContainer{
+
+  }
+
+  .instagram-header{
+    Justify-content: flex-start;
+    
+  }
+
+  .carousel-images{
+    flex-grow: 4;
+  }
+
+  .lower_header{
+
+  }
+  .center-stage{
+    
+  }
+  
+  .footer{
+
+  }
+  
+  .footer-icons{
+    
+  }
+
+  .insta-header{
+    position: fixed;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border: 1px solid rgb(218, 217, 217);
+  }
+  
+  
+.insta-header .instagramContainer {
+    /* background-color: #555; */
+    padding: 15px 0;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+  }
