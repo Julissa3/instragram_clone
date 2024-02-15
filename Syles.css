@@ -4,57 +4,95 @@
     padding: 0;
   }
   
-  /* Apply a basic font */
+.side{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+ color: white;
+}
   body {
     font-family: 'Arial', sans-serif;
   }
 
-  instagramContainer{
+  .insta-font{
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  }
+
+
+  .instagramContainer{
 
   }
 
-  .instagram-header{
-    Justify-content: flex-start;
-    
+  .fa-regular fa-heart{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .fa-brands fa-facebook-messenger{
+
   }
 
   .carousel-images{
-    flex-grow: 4;
+
+    align-items: flex-start;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    img{
+  border-radius: 50%;
+  background-color: white;
+  }   
   }
 
   .lower_header{
-
+    align-items: flex-start;
+    display: flex; 
+    flex-direction: row;
+    img{
+      border-radius: 50%;
+      }    
+                         
   }
   .center-stage{
-    
+
   }
   
   .footer{
-
+color: white;
   }
   
   .footer-icons{
-    
-  }
-
-  .insta-header{
-    position: fixed;
-    z-index: 100000;
-    display: flex;
-    align-items: center;
+    align-items: flex-start;
+    display: flex; 
+    flex-direction: row;
     justify-content: center;
-    background: rgb(255, 255, 255);
-    width: 100%;
-    border: 1px solid rgb(218, 217, 217);
-  }
-  
-  
-.insta-header .instagramContainer {
-    /* background-color: #555; */
-    padding: 15px 0;
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* margin: 0 auto; */
-  }
+    gap: 300px;
+    
+    }
+
+  .jump{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+  }      
+
+h3{
+  color: white;
+  align-self: flex-start;
+}
+
+body{
+  background-color: black;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
